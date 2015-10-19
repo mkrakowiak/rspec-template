@@ -13,9 +13,6 @@ Podręczne linki:
 
 ## Zadania
 
-1. [ ] Learn X in Y minutes, where X = [Ruby Array/Enumerable](/)
-  - [Hash](https://github.com/mkrakowiak/rspec-template/blob/master/ruby.md)
-  - [Array](http://ruby-doc.org/core-2.2.3/Array.html)
-  - [Enumerable](http://ruby-doc.org/core-2.2.3/Enumerable.html)
+1. [x] Learn X in Y minutes, where X = [Ruby Array/Enumerable](https://github.com/mkrakowiak/rspec-template/blob/master/ruby.md)
 2. [ ] Coś do przetestowania na początek
 3. [ ] Program/Biblioteka/Aplikacja WWW
