@@ -45,7 +45,7 @@ Other way to create hash
 Hash["a", 100, "b", 200]             #=> {"a"=>100, "b"=>200}
 Hash[ [ ["a", 100], ["b", 200] ] ]   #=> {"a"=>100, "b"=>200}
 Hash["a" => 100, "b" => 200]         #=> {"a"=>100, "b"=>200}
-
+```
 
 compare_by_identity → hsh
 ```ruby
