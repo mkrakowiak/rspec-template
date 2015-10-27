@@ -5,6 +5,16 @@ browsers = ['Chrome', 'Firefox', 'Safari', 'Opera', 'IE']
 browsers.include?('Konqueror') #=> false
 browsers.include?('IE') #=> true
 ```
+
+Iterating over Arrays
+```ruby
+arr = [1, 2, 3, 4, 5]
+arr.each { |a| print a -= 10, " " }
+# prints: -9 -8 -7 -6 -5
+#=> [1, 2, 3, 4, 5]
+```
+
+
 ###Learning enumerables
 
 all? [{ |obj| block } ] → true or false
