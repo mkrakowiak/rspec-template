@@ -1,6 +1,6 @@
-## Testowanie aplikacji w Ruby, matwb@ug.edu.pl
+## Testowanie aplikacji w Ruby
 
-![GIT](images/github_in_case_of_fire.jpg)
+![GIT]
 
 Podręczne linki:
 
