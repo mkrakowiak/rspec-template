@@ -45,7 +45,20 @@ Other way to create hash
 Hash["a", 100, "b", 200]             #=> {"a"=>100, "b"=>200}
 Hash[ [ ["a", 100], ["b", 200] ] ]   #=> {"a"=>100, "b"=>200}
 Hash["a" => 100, "b" => 200]         #=> {"a"=>100, "b"=>200}
+
+
+compare_by_identity → hsh
+```ruby
+h1 = { "a" => 100, "b" => 200, :c => "c" }
+h1["a"]        #=> 100
+h1.compare_by_identity
+h1.compare_by_identity? #=> true
+h1["a".dup]    #=> nil  # different objects.
+h1[:c]         #=> "c"  # same symbols are all same.
 ```
+
+
+
 Creating default value for hashes without specified keys
 ```ruby
 h = Hash.new("Go Fish")
