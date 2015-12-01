@@ -1,6 +1,5 @@
 ## Testowanie aplikacji w Ruby
 
-![GIT]
 mkrakowiak@sigma.ug.edu.pl
 Podręczne linki:
 
