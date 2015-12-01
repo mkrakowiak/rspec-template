@@ -1,7 +1,7 @@
 ## Testowanie aplikacji w Ruby
 
 ![GIT]
-
+mkrakowiak@sigma.ug.edu.pl
 Podręczne linki:
 
 1. [Better Specs](http://betterspecs.org/).
